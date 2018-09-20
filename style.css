@@ -303,3 +303,24 @@ header {
      margin-top: 1em;
      margin-left: 5em;
  }
+
+ .box-section-3 {
+     margin: 0 auto;
+     width: 80%;
+ }
+
+ .container-section-3 {
+     background: white;
+     padding: 2em;
+ }
+
+ .box-section-3 .container-section-3 section .container-grid {
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-column-gap: 5%;
+     grid-row-gap: 2em;
+ }
+
+ .box-section-3 .container-section-3 section .container-grid div img {
+    width: 100%;
+}
