@@ -4,17 +4,29 @@ body {
     padding: 0;
 }
 
+header {
+    z-index: 1;
+}
+
+.banner.color {
+    z-index: -1;
+}
+
 .box-header {
     margin: 0 auto;
     margin-top: 5em;
     width: 80%;
 }
 
-.box-area {
+.img {
     background-image: url(IMG/box-area.jpg);
     background-size: cover;
     position: relative;
     z-index: -2;
+}
+
+.box-area {
+    z-index: 1;
 }
 
 .flex-container {
@@ -135,7 +147,9 @@ body {
 .color {
     opacity: .9;
     background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
-    z-index: -1;
+}
+
+.container+.items {
 }
 
 .items {
@@ -144,14 +158,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 500px;
-}
-
-header {
-    z-index: 2;
-}
-
-.color-area .contenedor .items {
-    z-index: 2;
 }
 
 .buttom-1 {
@@ -264,5 +270,3 @@ header {
 .paralax {
     background-image: url(IMG/paralax.jpg);
 }
-            
-            
