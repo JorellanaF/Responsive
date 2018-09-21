@@ -1,0 +1,39 @@
+.box-section-2 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.box-section-2 .column-1 p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-right: 5em;
+}
+
+.box-section-2 .column-1 #sub {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding-right: 0;
+}
+
+.box-section-2 .column-1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+ .parallax {
+     background-image: url(../IMG/parallax.jpg);
+     background-size: cover;
+     position: relative;
+     width: 100%;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .started-1 {
+     margin-top: 1em;
+     margin-left: 5em;
+ }

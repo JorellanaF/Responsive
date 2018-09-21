@@ -1,0 +1,94 @@
+.box-section-3 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container-section-3 {
+    background: white;
+    padding: 2em;
+}
+
+.box-section-3 .container-section-3 section .container-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    grid-row-gap: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-column-img-1{
+    background-image: url(../IMG/grid-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-column-img-2{
+   background-image: url(../IMG/grid-2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.grid-column-img-3{
+   background-image: url(../IMG/grid-3.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.grid-column-img-4{
+   background-image: url(../IMG/grid-4.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   position: relative;
+   height: 100%;
+}
+
+.col-content {
+   visibility: hidden;
+   height: inherit;
+   width: inherit;
+   position: inherit;
+}
+
+div[class^="grid-column-img-"]:hover .col-content {
+   visibility: visible;
+}
+
+.fondo {
+   visibility: inherit;
+   background: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+   height: inherit;
+   width: inherit;
+   position: inherit;
+   opacity: 0.9;
+}
+
+.content-text {
+   visibility: inherit;
+   font-family: "Poppins", sans-serif;
+   color: white;
+   position: inherit;
+   padding: 2em 1em 8em 1em;
+}
+
+.content-text h3 {
+   padding: 0;
+}
+
+.content-text p {
+   padding: 0;
+}
