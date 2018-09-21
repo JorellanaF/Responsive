@@ -318,9 +318,60 @@ header {
      display: grid;
      grid-template-columns: auto auto;
      grid-column-gap: 5%;
-     grid-row-gap: 2em;
+     grid-row-gap: 0.5em;
+     width: 100%;
+     height: 100%;
  }
 
- .box-section-3 .container-section-3 section .container-grid div img {
-    width: 100%;
+ .grid-column-img-1{
+     background-image: url(IMG/grid-1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     visibility: visible;
+ }
+
+ .grid-column-img-2{
+    background-image: url(IMG/grid-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: visible;
 }
+
+.grid-column-img-3{
+    background-image: url(IMG/grid-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: visible;
+}
+
+.grid-column-img-4{
+    background-image: url(IMG/grid-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: visible;
+}
+
+.col-content {
+    visibility: hidden;
+    padding-top: 2em;
+    padding-bottom: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.fondo {
+    background: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.9;
+}
+
+.col-content:hover {
+    visibility: visible;
+}
+
+
+
+
