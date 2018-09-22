@@ -1,0 +1,75 @@
+.box-section-5 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.color-5 {
+    background: #f9f9ff;
+    padding: 2em 0 2em 0;
+}
+
+.section-container-5 {
+    padding: 0 1em 0 1em; 
+}
+
+.section-titulo-5 principal{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.section-container-5 .section-titulo-5 h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.section-container-5 .section-titulo-5 h2 #principal {
+    font-weight: 100;
+}
+
+.subscribe {
+    margin-top: 2em;
+}
+
+.subscribe-container {
+    /*No se todavia*/
+}
+
+.subscribe-container input {
+    border: 1px solid black;
+    border-radius: 25px;
+    line-height: 40px;
+    padding: 0 200px 0 20px;
+}
+
+.subscribe-container ::placeholder {
+    color: black;
+}
+
+.subscribe-buttom {
+    display: inline-block;
+    background: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    border-color: transparent;
+    border-radius: 25px;
+    padding: 0.5em;
+}
+
+.subscribe-buttom a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.container-flex-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-titulo-5 p {
+    margin-top: 3em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
