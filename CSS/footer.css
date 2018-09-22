@@ -1,0 +1,44 @@
+.box-footer {
+    margin: 0 auto ;
+    width: 80%;
+}
+
+.footer-content {
+    background: #222222;
+    padding: auto auto auto auto;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+}
+
+.nav-1 nav ul {
+    padding-top: 4em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 2em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-2 ul li {
+    display: inline;
+    margin: 1em;
+} 
+
+.nav-2 nav ul {
+    padding-top: 2em;
+}
+
+.licencia {
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    text-align: center;
+}
